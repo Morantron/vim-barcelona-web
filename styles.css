@@ -1,0 +1,25 @@
+body {
+  background-color: #1c1c1c;
+  color: #bbbbbb;
+  font-family: monospace;
+}
+
+pre {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.green {
+  color: green;
+}
+
+.white {
+  color: white;
+}
+
+.footer {
+  position: fixed;
+  bottom: 20px;
+  text-align: center;
+  width: 100%;
+}
