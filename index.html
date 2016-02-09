@@ -44,7 +44,7 @@
         \                  Don't you miss it! /
          -------------------------------------
                 \   ^__^
-                 \  (oo)\_______
+                 \  (<blink>oo</blink>)\_______
                     (__)\       )\/\
                         ||----w |
                         ||     ||
@@ -54,5 +54,21 @@
     <a href="https://www.meetup.com/Vim-Barcelona">Meetup</a>
     <a href="https://www.twitter.com/vimbarcelona">Twitter</a>
   </div>
+  <script>
+    var eyes = document.getElementsByTagName('blink')[0];
+
+    function open() {
+      eyes.innerHTML = 'oo';
+    }
+
+    function close() {
+      eyes.innerHTML = '--';
+    }
+
+    setInterval(function() {
+      close();
+      setTimeout(open, 50);
+    }, 5000);
+  </script>
 </body>
 </html>
