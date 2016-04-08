@@ -24,6 +24,15 @@ pre {
   width: 100%;
 }
 
+.sidebar {
+  position: fixed;
+  right: 100px;
+}
+
+.sidebar pre {
+  width: auto;
+}
+
 a {
   font-weight: bold;
   color: white;
